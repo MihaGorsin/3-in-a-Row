@@ -1,0 +1,71 @@
+.igralnaPlosca {
+    width: 460px;
+    margin: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+    
+}
+.ploscica {
+    max-width: 140px;
+    max-height: 140px;
+    box-shadow: -2px -2px 10px rgb(13, 26, 54);
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1{
+    font-family: 'Bungee', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    padding-bottom: -10px;
+    margin-bottom: -80px;
+    text-shadow: 8px 8px rgb(13, 26, 54);
+}
+
+h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color: #0b334b;
+}
+
+img {
+
+    transition: transform .2s;
+    
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+button {
+    background-color: #111520;
+    border: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 20px; 
+    transition: transform .2s;
+    margin:30px 46%;
+    
+}
+
+button:hover {
+    background-color: #0c1d3d; /* Green */
+    color: white;
+    padding: 16px 21px;
+}
